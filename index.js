@@ -1785,7 +1785,7 @@ function _emscripten_asm_const_iiii(code, a0, a1, a2) {
 
 STATIC_BASE = GLOBAL_BASE;
 
-STATICTOP = STATIC_BASE + 198144;
+STATICTOP = STATIC_BASE + 297888;
 /* global initializers */  __ATINIT__.push({ func: function() { __GLOBAL__I_000101() } }, { func: function() { __GLOBAL__sub_I_asset_characters_cpp() } }, { func: function() { __GLOBAL__sub_I_asset_tilemaps_cpp() } }, { func: function() { __GLOBAL__sub_I_asset_ui_cpp() } }, { func: function() { __GLOBAL__sub_I_core_platform_cpp() } }, { func: function() { __GLOBAL__sub_I_gamesetup_cpp() } }, { func: function() { __GLOBAL__sub_I_main_cpp() } }, { func: function() { ___emscripten_environ_constructor() } }, { func: function() { __GLOBAL__sub_I_iostream_cpp() } });
 
 
@@ -1794,7 +1794,7 @@ STATICTOP = STATIC_BASE + 198144;
 
 
 
-var STATIC_BUMP = 198144;
+var STATIC_BUMP = 297888;
 Module["STATIC_BASE"] = STATIC_BASE;
 Module["STATIC_BUMP"] = STATIC_BUMP;
 
@@ -10575,9 +10575,9 @@ function nullFunc_viiiiiiiiiii(x) { err("Invalid function pointer called with si
 
 function nullFunc_viijii(x) { err("Invalid function pointer called with signature 'viijii'. Perhaps this is an invalid value (e.g. caused by calling a virtual method on a NULL pointer)? Or calling a function with an incorrect type, which will fail? (it is worth building your source files with -Werror (warnings are errors), as warnings can indicate undefined behavior which can cause this)");  err("Build with ASSERTIONS=2 for more info.");abort(x) }
 
-Module['wasmTableSize'] = 48640;
+Module['wasmTableSize'] = 50688;
 
-Module['wasmMaxTableSize'] = 48640;
+Module['wasmMaxTableSize'] = 50688;
 
 function invoke_i(index) {
   var sp = stackSave();
